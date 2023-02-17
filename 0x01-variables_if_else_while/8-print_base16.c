@@ -16,7 +16,7 @@ int main(void)
 	{
     if(cnt == 10)
     {
-    putchar('A'+(cnt%10));
+    putchar((char)(97+(cnt%10)));
     }
     else
     {
