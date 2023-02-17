@@ -11,7 +11,6 @@
 int main(void)
 {
 	char low;
-	char upper;
 
 	for (low = 'a'; low <= 'z'; low++)
 	{
