@@ -15,18 +15,20 @@ int main(void)
 
 	while (cnt <= 15)
 	{
-		if(cnt >= 10)
+		if (cnt >= 10)
 		{
 			temp = (char)(97 + cnt % 10);
 			putchar(temp);
-   		}
-    		else
-    		{
+		}
+    		else if (cnt < 10)
+		{
 			temp = (char)(48 + cnt);
 			putchar(temp);
-  	  	}
+		}
 		cnt++;
 	}
+	
 	putchar('\n');
+	
 	return (0);
 }
