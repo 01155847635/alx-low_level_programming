@@ -22,7 +22,8 @@ int main(void)
    		}
     		else
     		{
-		putchar(48+cnt);
+		temp = (char)(48+cnt);
+		putchar(temp);
   	  	}
     		cnt++;
 	}
