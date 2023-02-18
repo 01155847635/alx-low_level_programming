@@ -22,7 +22,7 @@ int main(void)
    		}
     		else
     		{
-		putchar(cnt);
+		putchar(48+cnt%10);
   	  	}
     		cnt++;
 	}
