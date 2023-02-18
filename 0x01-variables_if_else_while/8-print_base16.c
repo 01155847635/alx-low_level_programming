@@ -20,6 +20,10 @@ int main(void)
 	    	temp = (char)(97+cnt%10);
     		putchar(temp);
    		}
+		else if(cnt==0)
+		{
+		putchar(48);
+		}
     		else
     		{
 		putchar(48+cnt%10);
