@@ -13,19 +13,19 @@ int main(void)
 	int cnt = 0;
 	char temp;
 
-	while(cnt <= 15)
+	while (cnt <= 15)
 	{
-    		if(cnt >= 10)
-    		{
-	    	temp = (char)(97+cnt%10);
-    		putchar(temp);
+		if(cnt >= 10)
+		{
+			temp = (char)(97 + cnt % 10);
+			putchar(temp);
    		}
     		else
     		{
-		temp = (char)(48+cnt);
-		putchar(temp);
+			temp = (char)(48 + cnt);
+			putchar(temp);
   	  	}
-    		cnt++;
+		cnt++;
 	}
 	putchar('\n');
 	return (0);
