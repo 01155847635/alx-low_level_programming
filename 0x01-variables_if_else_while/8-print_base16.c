@@ -13,7 +13,7 @@ int main(void)
 	int cnt = 1;
 	char temp;
 
-	while(cnt < 15)
+	while(cnt <= 15)
 	{
     		if(cnt >= 10)
     		{
