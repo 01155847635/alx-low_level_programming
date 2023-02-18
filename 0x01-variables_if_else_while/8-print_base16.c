@@ -11,18 +11,20 @@
 int main(void)
 {
 	int cnt = 1;
+	char temp;
 
 	while(cnt < 15)
 	{
-    if(cnt == 10)
-    {
-    putchar((char)(97+(cnt%10)));
-    }
-    else
-    {
+    		if(cnt >= 10)
+    		{
+	    	temp = (char)(97+cnt%10);
+    		putchar(temp);
+   		}
+    		else
+    		{
 		putchar(cnt);
-    }
-    cnt++;
+  	  	}
+    		cnt++;
 	}
 	putchar('\n');
 	return (0);
