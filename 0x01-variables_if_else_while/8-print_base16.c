@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int cnt = 1;
+	int cnt = 0;
 	char temp;
 
 	while(cnt <= 15)
