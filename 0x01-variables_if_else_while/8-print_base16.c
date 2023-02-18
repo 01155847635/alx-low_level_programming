@@ -20,15 +20,13 @@ int main(void)
 			temp = (char)(97 + cnt % 10);
 			putchar(temp);
 		}
-    		else if (cnt < 10)
+		else if (cnt < 10)
 		{
 			temp = (char)(48 + cnt);
 			putchar(temp);
 		}
 		cnt++;
 	}
-	
 	putchar('\n');
-	
 	return (0);
 }
