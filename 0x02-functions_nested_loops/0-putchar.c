@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * Description: ptint _putchar followed by the new line
- * Return: Always 0 (Success)
+ * _putchar: print the alphabets putchar
+ * Return: always 0 
  */
+
 int main(void)
 {
 	_putchar('_');
