@@ -1,6 +1,5 @@
 #include "main.h"
-
-/**
+/*
  * 
  * Description: ptint _putchar followed by the new line
  * 
