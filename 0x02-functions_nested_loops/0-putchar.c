@@ -3,10 +3,14 @@
 
 int main(void)
 {
-  string word = "_putchar";
-  int i;
-  for (i = 0; i < word.size(); i++)
-    _putchar(word[i]);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
 }
