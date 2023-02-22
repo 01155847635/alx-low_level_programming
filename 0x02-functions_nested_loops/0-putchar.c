@@ -1,4 +1,11 @@
 #include "main.h"
+
+/**
+ * 
+ * Description: ptint _putchar followed by the new line
+ * 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	_putchar('_');
